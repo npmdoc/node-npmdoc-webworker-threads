@@ -1,9 +1,9 @@
 # api documentation for  [webworker-threads (v0.7.11)](https://github.com/audreyt/node-webworker-threads)  [![npm package](https://img.shields.io/npm/v/npmdoc-webworker-threads.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webworker-threads) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webworker-threads.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webworker-threads)
 #### Lightweight Web Worker API implementation with native threads
 
-[![NPM](https://nodei.co/npm/webworker-threads.png?downloads=true)](https://www.npmjs.com/package/webworker-threads)
+[![NPM](https://nodei.co/npm/webworker-threads.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/webworker-threads)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-webworker-threads/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-webworker-threads_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-webworker-threads/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-webworker-threads/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-webworker-threads/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-webworker-threads/build/screenCapture.npmPackageListing.svg)
 
@@ -17,28 +17,23 @@
 
 {
     "author": {
-        "name": "Audrey Tang",
-        "email": "audreyt@audreyt.org"
+        "name": "Audrey Tang"
     },
     "bugs": {
-        "url": "http://github.com/audreyt/node-webworker-threads/issues",
-        "email": "audreyt@audreyt.org"
+        "url": "http://github.com/audreyt/node-webworker-threads/issues"
     },
     "contributors": [
         {
             "name": "//Threads_a_gogo AUTHORS"
         },
         {
-            "name": "2011-11-06 Jorge Chamorro Bieling",
-            "email": "jorge@jorgechamorro.com"
+            "name": "2011-11-06 Jorge Chamorro Bieling"
         },
         {
-            "name": "2011-11-25 Juan Falgueras Cano",
-            "email": "juan.falgueras@gmail.com"
+            "name": "2011-11-25 Juan Falgueras Cano"
         },
         {
-            "name": "2012-01-26 Bruno Jouhier",
-            "email": "bjouhier@gmail.com"
+            "name": "2012-01-26 Bruno Jouhier"
         }
     ],
     "dependencies": {
@@ -79,13 +74,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "au",
-            "email": "audreyt@audreyt.org"
+            "name": "au"
         }
     ],
     "name": "webworker-threads",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/audreyt/node-webworker-threads.git"
