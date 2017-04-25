@@ -1,4 +1,7 @@
-# api documentation for  [webworker-threads (v0.7.11)](https://github.com/audreyt/node-webworker-threads)  [![npm package](https://img.shields.io/npm/v/npmdoc-webworker-threads.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webworker-threads) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webworker-threads.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webworker-threads)
+# npmdoc-webworker-threads
+
+#### basic api documentation for  [webworker-threads (v0.7.11)](https://github.com/audreyt/node-webworker-threads)  [![npm package](https://img.shields.io/npm/v/npmdoc-webworker-threads.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webworker-threads) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webworker-threads.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webworker-threads)
+
 #### Lightweight Web Worker API implementation with native threads
 
 [![NPM](https://nodei.co/npm/webworker-threads.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/webworker-threads)
@@ -90,7 +93,8 @@
         "js": "env PATH=./node_modules/.bin:\"$PATH\" lsc -cj package.ls;\ngcc deps/minifier/src/minify.c -o deps/minifier/bin/minify;\nenv PATH=./node_modules/.bin:\"$PATH\" lsc -cbp src/worker.ls                    > src/worker.js;\n./deps/minifier/bin/minify kWorker_js            < src/worker.js          > src/worker.js.c;\nenv PATH=./node_modules/.bin:\"$PATH\" lsc -cbp src/events.ls                    > src/events.js;\n./deps/minifier/bin/minify kEvents_js            < src/events.js          > src/events.js.c;\nenv PATH=./node_modules/.bin:\"$PATH\" lsc -cbp src/createPool.ls                > src/createPool.js;\n./deps/minifier/bin/minify kCreatePool_js        < src/createPool.js      > src/createPool.js.c;\nenv PATH=./node_modules/.bin:\"$PATH\" lsc -cbp src/thread_nextTick.ls           > src/thread_nextTick.js;\n./deps/minifier/bin/minify kThread_nextTick_js 1 < src/thread_nextTick.js > src/thread_nextTick.js.c;\nenv PATH=./node_modules/.bin:\"$PATH\" lsc -cbp src/load.ls                      > src/load.js;\n./deps/minifier/bin/minify kLoad_js 1 1          < src/load.js            > src/load.js.c;",
         "test": "node test-package.js"
     },
-    "version": "0.7.11"
+    "version": "0.7.11",
+    "bin": {}
 }
 ```
 
